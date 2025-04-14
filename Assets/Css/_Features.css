@@ -1,1 +1,20 @@
-.features-box-content h6{font-size:15px}.features-box-content p{font-size:12px;line-height:32px}.features-box-item{border:1px solid #0e82fd}.features-box-item span{font-size:11px}.check-icon{color:#0e82fd;font-size:10px}
+.features-box-content h6 {
+  font-size: 20px;
+  color: #0d47a1;
+}
+.features-box-content p {
+  font-size: 14px;
+  line-height: 32px;
+  color: #616161;
+}
+.features-box-item {
+  border: 1px solid #0d47a1;
+}
+.features-box-item span {
+  font-size: 15px;
+  color: #0d47a1;
+}
+.check-icon {
+  color: #0d47a1;
+  font-size: 13px;
+}

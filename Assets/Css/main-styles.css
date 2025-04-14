@@ -1,1 +1,41 @@
-@import "./_Fonts.css";@import "./_Loader.css";@import "./_DedicatedScroll.css";@import "./_Login.css";@import "./_Register.css";@import "./_Navbar.css";@import "./_HeaderContent.css";@import "./_SearchBar.css";@import "./_Specialties.css";@import "./_IntroduceDoctors.css";@import "./_Features.css";@import "./_Comments.css";@import "./_Blogs.css";@import "./_Contact.css";@import "./_AboutUs.css";@import "./_MyReservations.css";@import "./_Footer.css";@import "./_Doctors-Search.css";*,*::after,*::before{padding:0;margin:0;box-sizing:border-box;font-family:'myFont';border:none;outline:none!important;list-style:none;font-weight:700}html{scroll-behavior:smooth!important}a,a:active,a:hover{text-decoration:none}
+@import "./_Fonts.css";
+@import "./_Loader.css";
+@import "./_DedicatedScroll.css";
+@import "./_Login.css";
+@import "./_Register.css";
+@import "./_Navbar.css";
+@import "./_HeaderContent.css";
+@import "./_SearchBar.css";
+@import "./_Specialties.css";
+@import "./_IntroduceDoctors.css";
+@import "./_Features.css";
+@import "./_Comments.css";
+@import "./_Blogs.css";
+@import "./_Contact.css";
+@import "./_AboutUs.css";
+@import "./_MyReservations.css";
+@import "./_Footer.css";
+@import "./_Doctors-Search.css";
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "myFont";
+  border: none;
+  outline: none !important;
+  list-style: none;
+  font-weight: 700;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+body{
+  background-color: #E1F5FE;
+}

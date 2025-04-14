@@ -1,1 +1,25 @@
-.Specialties-items{border:1px solid #0e82fd;border-radius:6px}.specialties-title{font-size:15px;position:relative}.specialties-title::before{content:"+";width:20px;height:20px;font-size:20px;font-weight:700;position:absolute;top:-28px;right:0;z-index:2;color:#0e82fd}.Specialties-items_txt{font-size:12px}
+.Specialties-items {
+  border: 1px solid #0d47a1;
+  border-radius: 6px;
+}
+.specialties-title {
+  font-size: 20px;
+  position: relative;
+  color: #0d47a1;
+}
+.specialties-title::before {
+  content: "+";
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: -28px;
+  right: 0;
+  z-index: 2;
+  color: #0d47a1;
+}
+.Specialties-items_txt {
+  font-size: 16px;
+  color: #0d47a1;
+}

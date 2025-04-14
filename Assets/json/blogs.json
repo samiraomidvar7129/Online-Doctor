@@ -1,1 +1,39 @@
-{"blogs":[{"id":"1","img":"/Assets/imgs/blog/blog-7.jpeg","desc":"برونشیت ریه و درمان آن "},{"id":"2","img":"/Assets/imgs/blog/blog-6.jpeg","desc":"شایع ترین علل تهوع و درمان ها "},{"id":"3","img":"/Assets/imgs/blog/blog-5.jpeg","desc":"انواع بیماری های گوش و علائم آن"},{"id":"4","img":"/Assets/imgs/blog/blog-10.jpeg","desc":"  اختلال تعادل چسیت ؟"},{"id":"5","img":"/Assets/imgs/blog/blog-8.jpeg","desc":"دلایل ایجاد خلط و درمان آن  "},{"id":"6","img":"/Assets/imgs/blog/blog-9.jpeg","desc":"  آسم چیست و چگونه پیشگیری کنیم "},{"id":"7","img":"/Assets/imgs/blog/blog-3.jpeg","desc":"دیابت نوع دو و دانسته های آن"}]}
+{
+  "blogs": [
+    {
+      "id": "1",
+      "img": "Assets/imgs/blog/blog-7.jpeg",
+      "desc": "برونشیت ریه و درمان آن "
+    },
+    {
+      "id": "2",
+      "img": "Assets/imgs/blog/blog-6.jpeg",
+      "desc": "شایع ترین علل تهوع و درمان ها "
+    },
+    {
+      "id": "3",
+      "img": "Assets/imgs/blog/blog-5.jpeg",
+      "desc": "انواع بیماری های گوش و علائم آن"
+    },
+    {
+      "id": "4",
+      "img": "Assets/imgs/blog/blog-10.jpeg",
+      "desc": "  اختلال تعادل چسیت ؟"
+    },
+    {
+      "id": "5",
+      "img": "Assets/imgs/blog/blog-8.jpeg",
+      "desc": "دلایل ایجاد خلط و درمان آن  "
+    },
+    {
+      "id": "6",
+      "img": "Assets/imgs/blog/blog-9.jpeg",
+      "desc": "  آسم چیست و چگونه پیشگیری کنیم "
+    },
+    {
+      "id": "7",
+      "img": "Assets/imgs/blog/blog-3.jpeg",
+      "desc": "دیابت نوع دو و دانسته های آن"
+    }
+  ]
+}

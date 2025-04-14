@@ -1,1 +1,69 @@
-.swiper{width:100%;height:100%}.swiper-slide{font-size:18px}.mySwiper-list_item{border:1px solid #0e82fd;border-radius:6px}.introduce-title{position:relative;font-size:15px}.introduce-title::before{content:"+";width:20px;height:20px;font-size:20px;font-weight:700;position:absolute;top:-28px;right:0;z-index:2;color:#0e82fd}.doctor-name{font-size:14px}.doctor-Speciallity,.doctor-NezamCode,.doctor-city{font-size:11px}.doctor-name,.doctor-Speciallity,.doctor-NezamCode{color:#010101}.doctor-city{color:#0e82fd}.doctor-reserve_box{border-radius:6px;border:1px solid #0e82fd;transition:all .5s ease}.doctor-reserve_box:hover{background-color:#0e82fd;color:#fff}.doctor-reserve_box:hover a,.doctor-reserve_box:hover .doctor-reserve_icon{color:#fff}.doctor-reserve_box a{font-size:12px}.doctor-reserve_box .doctor-reserve_icon{font-size:12px;color:#0e82fd;margin-right:6px}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  font-size: 18px;
+}
+.mySwiper-list_item {
+  border: 1px solid #0e82fd;
+  border-radius: 6px;
+}
+.introduce-title {
+  position: relative;
+  font-size: 20px;
+  color: #0d47a1;
+}
+.introduce-title::before {
+  content: "+";
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: -28px;
+  right: 0;
+  z-index: 2;
+  color: #0d47a1;
+}
+.doctor-name {
+  font-size: 16px;
+  color: #0d47a1;
+}
+.doctor-Speciallity,
+.doctor-NezamCode,
+.doctor-city {
+  font-size: 14px;
+}
+.doctor-name,
+.doctor-Speciallity,
+.doctor-NezamCode,.doctor-city  {
+    color: #0d47a1;
+}
+
+.doctor-reserve_box {
+  border-radius: 6px;
+  border: 1px solid #0d47a1;
+  transition: all 0.5s ease;
+  background-color: #0d47a1;
+}
+.doctor-reserve_box:hover {
+  background-color: #0e82fd;
+  color: #fff;
+}
+.doctor-reserve_box:hover a,
+.doctor-reserve_box:hover .doctor-reserve_icon {
+  color: #fff;
+}
+.doctor-reserve_box a {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.doctor-reserve_box .doctor-reserve_icon {
+  font-size: 22px;
+  color: #fff;
+ margin-left: 15px;
+}
