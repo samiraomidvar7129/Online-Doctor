@@ -1,1 +1,72 @@
-.description-item_txt--p,.member-item_txt{font-size:12px;line-height:32px}.location-links_inner--item span{font-size:11px;margin-right:7px}.location-links_inner--item .location-icons,.location-links_inner--item .email-icons,.location-links_inner--item .phone-icons{font-size:12px!important}.access-links_title,.location-links_title{font-size:14px;font-weight:400}.access-links_inner--link{font-size:11px;color:#010101}#email-input{border:1px solid #0e82fd}#email-input{font-size:12px;padding-right:6px;color:#0e82fd;caret-color:#0e82fd;text-align:right!important}#email-input::placeholder{color:#0e82fd}.submit-btn{width:40px;height:36px;font-size:11px;background-color:#0e82fd;color:#fff}.subFooter-item_txt{font-size:12px;margin-right:10px}.subFooter-item_copyright{font-size:10px}.subFooter-item_icon,.subFooter-item_social,.subFooter-item_copyright{color:#0e82fd}.subFooter-item_social li{margin-left:10px}
+.description-item_txt--p,
+.member-item_txt {
+  font-size: 15px;
+  line-height: 32px;
+  color: #0d47a1;
+}
+.location-links_inner--item span {
+  font-size: 14px;
+  margin-right: 7px;
+}
+.location-links_inner--item .location-icons,
+.location-links_inner--item .email-icons,
+.location-links_inner--item .phone-icons {
+  font-size: 14px;
+  color: #0d47a1;
+}
+.access-links_title,
+.location-links_title {
+  font-size: 15px;
+  color: #0d47a1;
+}
+.access-links_inner--link,.location-links_inner--item  {
+  font-size: 14px;
+  color: #0d47a1;
+}
+#email-input {
+  border: 1px solid #0d47a1;
+}
+#email-input {
+    width: 100%;
+    height: 40px;
+  font-size: 12px;
+  padding-right: 6px;
+  color: #0d47a1;
+  caret-color: #0d47a1;
+  text-align: right !important;
+}
+#email-input::placeholder {
+  color: #0d47a1;
+}
+.submit-btn {
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #0d47a1;
+  color: #fff;
+}
+.subFooter-item_txt {
+  font-size: 15px;
+  margin-right: 10px;
+  color: #0d47a1;
+}
+.subFooter-item_copyright {
+  font-size: 16px;
+}
+
+.subFooter-item_social,
+.subFooter-item_copyright {
+  color: #0d47a1;
+  font-size: 14px;
+}
+.subFooter-item_social li {
+  margin-left: 22px;
+}
+.subFooter-item_social li a  {
+    font-size: 15px;
+    color: #0d47a1;
+  }
+  .subFooter-item_social li a .subFooter-item_icon {
+    font-size: 22px !important;
+    color: #0d47a1;
+  }

@@ -6,7 +6,7 @@
   font-size: 18px;
 }
 .mySwiper-list_item {
-  border: 1px solid #0e82fd;
+  border: 1px solid #0d47a1;
   border-radius: 6px;
 }
 .introduce-title {
@@ -28,7 +28,6 @@
 }
 .doctor-name {
   font-size: 16px;
-  color: #0d47a1;
 }
 .doctor-Speciallity,
 .doctor-NezamCode,
@@ -38,7 +37,7 @@
 .doctor-name,
 .doctor-Speciallity,
 .doctor-NezamCode,.doctor-city  {
-    color: #0d47a1;
+    color: #0d47a1 !important;
 }
 
 .doctor-reserve_box {

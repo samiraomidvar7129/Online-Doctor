@@ -1,1 +1,19 @@
-.loader{position:fixed;z-index:99;top:0;left:0}.loader>img{width:60px;height:60px;border-radius:50%}.loader.hidden{animation:fadeOut 1s forwards}@keyframes fadeOut{100%{opacity:0;visibility:hidden}}
+.loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+.loader span{
+    font-size: 22px;
+}
+
+.loader.hidden {
+  animation: fadeOut 1s forwards;
+}
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

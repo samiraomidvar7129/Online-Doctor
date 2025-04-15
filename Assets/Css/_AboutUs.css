@@ -1,12 +1,13 @@
 .aboutUs-heade-img {
   height: 200px;
-  background-color: #0e82fd;
+  background-color: #0d47a1;
 }
 .aboutUs-heade-img_title {
   color: #fff;
 }
 .aboutUs-content_txt {
-  font-size: 12px;
-  line-height: 32px;
+  font-size: 15px;
+  color: #0d47a1;
+  line-height: 50px;
   text-align: justify;
 }
