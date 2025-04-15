@@ -1,1 +1,22 @@
-.register_inner{border:1px solid #0e82fd;height:auto}.regiter-form_btn{background-color:#0e82fd;color:#fff;transition:all 0.5s ease}.regiter-form_btn:hover{background-color:rgb(27 101 179 / .842)}.register_form--inner input{padding-right:10px;color:#0e82fd!important}input#register-number::-webkit-outer-spin-button,input#register-number::-webkit-inner-spin-button{-webkit-appearance:none!important}
+.register_inner {
+  border: 1px solid #0d47a1;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.regsiter-form_btn {
+  background-color: #0d47a1;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.regsiter-form_btn:hover {
+  background-color: rgb(27 101 179 / 0.842);
+}
+.register_form--inner input {
+  padding-right: 10px;
+  color: #0d47a1 !important;
+}
+input#register-number::-webkit-outer-spin-button,
+input#register-number::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}

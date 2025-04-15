@@ -4,10 +4,11 @@
 }
 .contact-us_form {
   border-radius: 3px;
-  border: 1px solid #0e82fd;
+  border: 1px solid #0d47a1;
 }
 .contact-title_p {
-  font-size: 13px;
+  font-size: 20px;
+  color: #0d47a1;
 }
 .contctUs-wrapper_title {
   font-size: 16px;
@@ -15,15 +16,16 @@
 }
 .form-element input {
   border: none;
-  border: 1px solid #0e82fd;
+  border: 1px solid #0d47a1;
   margin-right: 1px;
   text-align: right;
   font-size: 12px;
+  border-radius: 5px;
   color: #010101;
-  caret-color: #0e82fd;
+  caret-color: #0d47a1;
 }
 .form-element input::placeholder {
-  color: #0e82fd;
+  color: #0d47a1;
 }
 input#userNumber::-webkit-outer-spin-button,
 input#userNumber::-webkit-inner-spin-button {
@@ -32,14 +34,15 @@ input#userNumber::-webkit-inner-spin-button {
 .userMessage {
   resize: none;
   border: none;
-  border: 1px solid #0e82fd;
+  border-radius: 5px;
+  border: 1px solid #0d47a1;
   text-align: right;
   font-size: 12px;
-  color: #0e82fd !important;
+  color: #0d47a1 !important;
 }
 .contact-btn-form {
   border: none;
-  background-color: #0e82fd;
+  background-color: #0d47a1;
   color: #fff;
-  font-size: 13px;
+  font-size: 16px;
 }

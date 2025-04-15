@@ -14,7 +14,6 @@
 @import "./_Contact.css";
 @import "./_AboutUs.css";
 @import "./_MyReservations.css";
-@import "./_Footer.css";
 @import "./_Doctors-Search.css";
 *,
 *::after,
@@ -37,5 +36,18 @@ a:hover {
   text-decoration: none;
 }
 body{
+  background-color: #E1F5FE;
+}
+.custom-color{
+  color:#0d47a1; 
+}
+.footer-shadow {
+  box-shadow: 0px -4px 15px rgba(13, 71, 161, 0.15); 
+}
+.logoText{
+  color: #0d47a1;
+  font-family: "Austyke" !important;
+}
+.bg-custom{
   background-color: #E1F5FE;
 }

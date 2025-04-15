@@ -8,11 +8,13 @@
   padding-right: 10px;
   caret-color: #0d47a1;
   font-size: 14px;
+  background-color: #E1F5FE;
 }
 .searchBar-wrapper_form div span {
   padding-right: 10px;
   font-size: 15px;
   width: 100px;
+  color: #0d47a1;
 }
 #search-btn {
   background-color: #0d47a1;

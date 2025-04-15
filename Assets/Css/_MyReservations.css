@@ -1,6 +1,6 @@
 #appointments {
   height: auto;
-  background-color: #0e82fd;
+  background-color: #0d47a1;
 }
 .appointments-items {
   background-color: #fff;
@@ -9,7 +9,7 @@
   color: #010101;
 }
 .appointments-items_btn {
-  background-color: #0e82fd !important;
+  background-color: #0d47a1 !important;
   color: #fff;
   font-size: 12px;
   transition: all 0.5s ease-in;
