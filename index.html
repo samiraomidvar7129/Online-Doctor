@@ -4,200 +4,200 @@
     <meta charset="UTF-8" />
     <meta name="description" content=" پزشک انلاین,مشاوره انلاین ,مشاوره اینترنتی,دریافت نوبت ,درمان انلاین,پزشک تو, رزرو نوبت , نوبت اینترنتی ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> خانه - داک کیور</title>
+    <title> ویزیت اینترنتی-آنلاین داک</title>
 
     <!-- FavIcon -->
     <link rel="icon" href="Assets/imgs/logo/favicon.png" />
-
     <!-- Import FontAwesome -->
     <link
       rel="stylesheet"
-      href="Assets/Libs/fontawesome-pro-5.15.3-web/css/all.min.css"
-    />
-
+      href="Assets/Libs/fontawesome-pro-5.15.3-web/css/all.min.css"/>
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- Import Bootsrap 5 CDN -->
     <link
       rel="stylesheet"
-      href="Assets/Libs/bootstrap-5.2.3-dist/css/bootstrap.min.css"
-    />
-
+      href="Assets/Libs/bootstrap-5.2.3-dist/css/bootstrap.min.css"/>
     <!-- Import Styles File -->
     <link rel="stylesheet" href="Assets/Css/main-styles.css" />
   </head>
   <body>
-
     <!-- Start Loading -->
-    <div class="loader d-flex justify-content-center align-items-center w-100 h-100 bg-light">
-      <span>لطفا منتظر بمانید ...</span>
+    <div class="loader d-flex justify-content-center align-items-center w-100 vh-100 bg-light flex-column gap-3">
+      <div class="spinner-border text-success " role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <span class="fw-bold fs-5 text-success">لطفا منتظر بمانید ...</span>
     </div>
     <!-- END Loading -->
-
     <!-- Start DedicatedScroll Division -->
-
     <div id="dedicatedScroll"></div>
-
     <!-- END DedicatedScroll Division -->
-
-       <!-- Start Navbar Menu -->
-       <div class="container-fluid position bg-custom py-3" id="header-nav">
-        <nav class="navbar navbar-expand-md navbar-light">
-          <div class="container-fluid">
-      
-            <!-- لوگو -->
-            <h3 class="navbar-brand d-none fs-2 d-md-block custom-color logoText">OnlineDoc</h3>
-      
-            <!-- دکمه همبرگری -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-      
-            <!-- منوها -->
-            <div class="collapse navbar-collapse slide-in-right" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item px-3"><a class="nav-link custom-color hover-3" href="index.html">خانه</a></li>
-                <li class="nav-item px-3"><a class="nav-link custom-color hover-3" href="#">دکترها</a></li>
-                <li class="nav-item px-3"><a class="nav-link custom-color hover-3" href="#">بیماران</a></li>
-                <li class="nav-item px-3"><a class="nav-link custom-color hover-3" href="about.html">درباره ما</a></li>
-                <li class="nav-item px-3"><a class="nav-link custom-color hover-3" href="services.html">خدمات</a></li>
-                <li class="nav-item px-3"><a class="nav-link custom-color hover-3" href="contactUs.html">تماس باما</a></li>
-              </ul>
-      
-              <!-- دکمه‌ها -->
-              <div class="d-flex gap-2 mb-3 mb-md-0">
-                <a href="myReservations.html" class="btn btn-outline-primary">نوبت من</a>
-                <a href="register.html" class="btn btn-outline-secondary">ورود | ثبت‌نام</a>
-              </div>
-      
-              <!-- سوئیچ دارک مود -->
-              <div class="d-flex gap-2 mb-3 mb-md-0 ms-3 align-items-center">
-                <div class="switch btn btn-outline-dark d-flex align-items-center justify-content-between px-2 py-1">
-                  <div class="fliker bg-white rounded-circle d-block "></div>
-                  <i class=" fas fa-moon text-white ms-2"></i>
-                </div>
+    <!-- Start Navbar Menu -->
+    <div class="container-fluid  py-3" id="header-nav">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <h3 class="navbar-brand fs-2 custom-color logoText d-none d-lg-block">OnlineDoc</h3>
+    
+          <!-- Hamburger Button -->
+          <button class="navbar-toggler shadow-none border-1 border-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Desktop Menu 1024px -->
+          <div class="collapse navbar-collapse d-none d-lg-flex slide-in-right" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3 menu-item"><a class="nav-link custom-color hover-3" href="index.html">خانه</a></li>
+              <li class="nav-item px-3 menu-item"><a class="nav-link custom-color hover-3" href="#">دکترها</a></li>
+              <li class="nav-item px-3 menu-item"><a class="nav-link custom-color hover-3" href="#">بیماران</a></li>
+              <li class="nav-item px-3 menu-item"><a class="nav-link custom-color hover-3" href="about.html">درباره ما</a></li>
+              <li class="nav-item px-3 menu-item"><a class="nav-link custom-color hover-3" href="services.html">خدمات</a></li>
+              <li class="nav-item px-3 menu-item"><a class="nav-link custom-color hover-3" href="contactUs.html">تماس باما</a></li>
+            </ul>
+    
+            <!-- Buttons and Dark Mode -->
+            <div class="d-flex gap-2 mb-3 mb-lg-0">
+              <a href="myReservations.html" class="btn btn-outline-primary">نوبت من</a>
+              <a href="register.html" class="btn btn-outline-secondary">ورود | ثبت‌نام</a>
+            </div>
+            <div class="d-flex gap-2 mb-3 mb-lg-0 ms-3 align-items-center">
+              <div class="switch btn btn-outline-dark d-flex align-items-center justify-content-between px-2 py-1">
+                <div class="fliker bg-white rounded-circle d-block"></div>
+                <i class="fas fa-moon text-white ms-2"></i>
               </div>
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
+    </div>
+    <!-- Offcanvas Menu -->
+    <div class="offcanvas offcanvas-end bg-custom" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel" style="width: 300px;">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title  navbar-brand fs-2 text-primary logoText " id="mobileMenuLabel">OnlineDoc</h5>
+        <button type="button" class="btn-close text-reset bg-custom p-3 shadow-none border-0 rounded" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-        <!-- END Navbar Menu -->
-
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item text-center mt-2"><a class="nav-link" href="index.html">خانه</a></li>
+          <li class="nav-item text-center mt-2"><a class="nav-link" href="#">دکترها</a></li>
+          <li class="nav-item text-center mt-2"><a class="nav-link" href="#">بیماران</a></li>
+          <li class="nav-item text-center mt-2"><a class="nav-link" href="about.html">درباره ما</a></li>
+          <li class="nav-item text-center mt-2"><a class="nav-link" href="services.html">خدمات</a></li>
+          <li class="nav-item text-center mt-2"><a class="nav-link" href="contactUs.html">تماس باما</a></li>
+        </ul>
+        <div class="d-flex justify-content-around bg-custom  py-3 align-items-center my-4">
+          <a href="myReservations.html" class="btn btn-outline-primary">نوبت من</a>
+          <a href="register.html" class="btn btn-outline-secondary">ورود | ثبت‌نام</a>
+        </div>
+        <div class="d-flex justify-content-center mt-3 py-3 bg-custom  align-items-center">
+          <div class="switch btn btn-outline-dark d-flex align-items-center justify-content-between px-2 py-1">
+            <div class="fliker bg-white rounded-circle d-block"></div>
+            <i class="fas fa-moon text-white ms-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Navbar Menu -->
     <!-- Start Header Content -->
-    <div class="container mt-5 ">
-      <div class="row">
-        <div class="col-sm-12 col-md-7 col-lg-7  col-xl-7 col-xxl-7  ">
-          <div
-            class="header-content_boxRight  w-100 h-100 d-flex justify-content-center align-items-start flex-column"
-          >
-            <div class=" header-content_boxRight--title mt-4 d-flex" id="Online-consultation">
-              <p>
-                ویزیت با               <p class="Online-consultation-text" id="Online-consultation-text">  بهترین پزشکان</p>
+    <div class="container mt-5">
+      <div class="row align-items-center">      
+        <div class="col-md-7 mb-4 mb-md-0">
+          <div class="d-flex flex-column justify-content-start align-items-start h-100">            
+            <div class="mt-4">
+              <p class="fs-3 fw-bold custom-color">
+                ویزیت با
+                <span class="text-primary fs-2">بهترین پزشکان</span>
                 در نزدیکی شما
               </p>
             </div>
-            <p class=" header-content_boxRight--mute pt-4">
-              پورتال پزشکی این سایت مربوط به یک بیمارستان و یا مرکز پزشکی
-              می‌شود که حاوی اطلاعات جامعی از پزشکان، ساعات کاری، مکان هاو
-              رزرو نوبت اینرنتی میباشد
+            <p class="custom-color pt-3 lh-lg">
+              پورتال پزشکی این سایت مربوط به یک بیمارستان و یا مرکز پزشکی می‌شود که حاوی اطلاعات جامعی از پزشکان، ساعات کاری، مکان‌ها و رزرو نوبت اینترنتی می‌باشد.
             </p>
-            <div class=" header-content_boxRight--linkBox mt-2">
-              <div  class=" header-content_boxRight--item text-center">
-                <a class=" header-content_boxRight--link text-white" href="#"> ویزیت آنلاین  </a>
-              </div>
-            </div>
+            <button type="button" class="border border-primary bg-transparent rounded   p-1">
+               <a href="#" class=" text-primary px-4">ویزیت آنلاین</a>
+            </button>
           </div>
         </div>
-        <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-5 pt-3  d-none d-md-block">
-          <div class="header-content-boxImg  w-100 h-100 m-auto ">
-            <img
-              src="Assets/imgs/doccure/banner-img.png"
-              alt="doctor-img"
-              class=" d-block w-100 h-100 cover"
-            />
-          </div>
-        </div>
+        <div class="col-md-5 d-none d-md-block">
+          <img
+            src="Assets/imgs/doccure/banner-img.png"
+            alt="doctor-img"
+            class="img-fluid rounded"
+          />
+        </div>    
       </div>
     </div>
     <!-- END Header Content -->
-
     <!-- Start SearchBar -->
-    <div class="container mt-4 mt-sm-3 mt-md-2  p-0 " id="searchBar-wrapper">
-      <div class="row m-auto p-0 h-100">
-        <div class="searchBar-wrapper_form w-100 h-100 p-0  d-flex justify-content-center  align-items-center" id="earchBar-wrapper_form">
-          <div class="d-flex justify-content-center  align-items-center w-100 h-100">
-            <span >  نام پزشک   : </span>
-            <input class="w-100  h-100" type="text" id="search-name" >
-          </div>
-          <button type="submit" class="d-block w-25 h-100" value="" id="search-btn">جستجو</i></button>
+    <div class="container  mt-4" id="searchBar-wrapper">
+      <div class="row">
+        <div class="col w-100 h-100">
+          <form class="input-group shadow overflow-hidden h-100">
+            <span class="p-3 blue-bg text-white fw-bold">نام پزشک:</span>
+            <input 
+              type="text" 
+              class="form-control" 
+              placeholder="مثلاً دکتر احمدی..." 
+              id="search-name" >
+            <button 
+              type="submit" 
+              class="blue-bg p-3 text-white d-flex align-items-center justify-content-between" 
+              id="search-btn">
+              <span class="me-2 px-3">جستجو</span>
+              <i class="fas fa-search "></i>
+            </button>
+          </form>
         </div>
       </div>
     </div>
     <!-- END SearchBar -->
-
     <!-- Start Specialties Box -->
-    <div class="container mt-5" >
+    <div class="container mt-5">
       <div class="row">
-        <div class="specialties-titleBox my-2">
-          <h5 class="specialties-title">تخصص ها</h5>
+        <div class="col-12 text-center mb-4">
+          <h5 class="fw-bold text-primary">تخصص‌ها</h5>
         </div>
       </div>
-
-      <div class="row mt-3 ">
-        <div class=" col-sm-6 col-md-3 col-lg-3 xol-xl-3 col-xxl-3 my-2 my-sm-2">
-          <div class="Specialties-items p-3 d-flex justify-content-center flex-column align-items-center ">
-            <div class="Specialties-items_imgBox">
-              <img src="Assets/imgs/specialties/specialities-01.svg" alt="specialities">
-            </div>
-            <p class="Specialties-items_txt pt-4">متخصص قلب</p>
+    
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <div class="border rounded p-3 d-flex flex-column align-items-center shadow-sm h-100">
+            <img src="Assets/imgs/specialties/specialities-01.svg" alt="متخصص قلب" class="img-fluid mb-3 mx-auto d-block" style="max-width: 60px;">
+            <p class="mb-0 fw-medium">متخصص قلب</p>
           </div>
         </div>
-
-
-        <div class=" col-sm-6 col-md-3 col-lg-3 xol-xl-3 col-xxl-3 my-2 my-sm-2">
-          <div class="Specialties-items p-3 d-flex justify-content-center flex-column align-items-center ">
-            <div class="Specialties-items_imgBox">
-              <img src="Assets/imgs/specialties/specialities-02.svg" alt="specialities">
-            </div>
-            <p class="Specialties-items_txt pt-4">عصب شناس</p>
+    
+        <div class="col-6 col-md-3">
+          <div class="border rounded p-3 d-flex flex-column align-items-center shadow-sm h-100">
+            <img src="Assets/imgs/specialties/specialities-02.svg" alt="عصب‌شناس" class="img-fluid mb-3 mx-auto d-block" style="max-width: 60px;">
+            <p class="mb-0 fw-medium">عصب‌شناس</p>
           </div>
         </div>
-
-
-        <div class=" col-sm-6 col-md-3 col-lg-3 xol-xl-3 col-xxl-3 my-2 my-sm-2">
-          <div class="Specialties-items p-3 d-flex justify-content-center flex-column align-items-center ">
-            <div class="Specialties-items_imgBox">
-              <img src="Assets/imgs/specialties/specialities-03.svg" alt="specialities">
-            </div>
-            <p class="Specialties-items_txt pt-4">اورولوژی</p>
+    
+        <div class="col-6 col-md-3">
+          <div class="border rounded p-3 d-flex flex-column align-items-center shadow-sm h-100">
+            <img src="Assets/imgs/specialties/specialities-03.svg" alt="اورولوژی" class="img-fluid mb-3 mx-auto d-block" style="max-width: 60px;">
+            <p class="mb-0 fw-medium">اورولوژی</p>
           </div>
         </div>
-
-
-        <div class=" col-sm-6 col-md-3 col-lg-3 xol-xl-3 col-xxl-3 my-2 my-sm-2">
-          <div class="Specialties-items p-3 d-flex justify-content-center flex-column align-items-center ">
-            <div class="Specialties-items_imgBox">
-              <img src="Assets/imgs/specialties/specialities-05.svg" alt="specialities">
-            </div>
-            <p class="Specialties-items_txt pt-4">دندانپزشک</p>
+    
+        <div class="col-6 col-md-3">
+          <div class="border rounded p-3 d-flex flex-column align-items-center shadow-sm h-100">
+            <img src="Assets/imgs/specialties/specialities-05.svg" alt="دندانپزشک" class="img-fluid mb-3 mx-auto d-block" style="max-width: 60px;">
+            <p class="mb-0 fw-medium">دندانپزشک</p>
           </div>
         </div>
-
-
-          
       </div>
     </div>
     <!-- END Specialties Box -->
     <!-- Start Introduce Doctors -->
     <div class="container mt-5" id="introduce">
       <div class="row">
-        <div class="introduce-titleBox mt-3 ">
-          <h5 class="introduce-title"> بهترین پزشکان</h5>
+        <div class="col-12 text-center mb-4">
+          <h5 class="fw-bold text-primary">بهترین پزشکان</h5>
         </div>
       </div>
 
@@ -212,81 +212,61 @@
   <div id="result"></div>
     </div>
     <!-- END Introduce Doctors -->
-
     <!-- Start Features -->
     <div class="container my-5" id="features">
-      <div class="row">
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 h-100 d-none d-md-block">
-          <div class="features-box_img w-100">
-            <img
-              src="Assets/imgs/doccure/work-img.png"
-              class=" d-block w-100 h-100 cover d-flex justify-content-center align-items-center"
-              alt=""
-            />
-          </div>
+      <div class="row align-items-center">
+        <div class="col-md-4 d-none d-md-block">
+          <img src="Assets/imgs/doccure/work-img.png" alt="feature-img" class="img-fluid rounded">
         </div>
-        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
-          <div
-            class="features-box-content p-3 d-flex text-right flex-column align-items-center"
-          >
-            <h6 class="pt-3">
-              پزشکان   برای ارائه خدمات پزشکی برای همه بیماران در
-              دسترس میباشند
+            <div class="col-12 col-md-8">
+          <div class="text-end">
+            <h6 class="pt-3 fs-4 fs-md-5 fw-bold custom-color">
+              پزشکان برای ارائه خدمات پزشکی برای همه بیماران در دسترس می‌باشند
             </h6>
-            <p class="pt-3 features-p">
-            سریعترین و معتبرترین وبسایت در بین ارائه دهندگان خدمات پزشکی
-               در سراسر ایران
+            <p class="pt-3 fs-6 fs-md-6 text-primary">
+              سریعترین و معتبرترین وبسایت در بین ارائه‌دهندگان خدمات پزشکی در سراسر ایران
             </p>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-2">
-                <div
-                  class="w-100 features-box-item py-2 rounded-3 bg-light d-flex justify-content-center align-items-center"
-                >
-                  <span class=" px-2">تیم درمانی باکیفیت </span>
-                  <i class="far fa-check-circle check-icon"></i>
-                </div>
+          <div class="row g-2 mt-3">
+            <div class="col-12 col-sm-6">
+              <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
+                <span class="text-end fs-6 custom-color">تیم درمانی باکیفیت</span>
+                <i class="far fa-check-circle text-success fs-5"></i>
               </div>
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-2">
-                <div
-                  class="w-100 features-box-item py-2  rounded-3 bg-light d-flex justify-content-center align-items-center"
-                >
-                  <span class=" px-2">بیمارستان چند تخصصی</span>
-                  <i class="far fa-check-circle check-icon"></i>
-                </div>
+            </div>
+    
+            <div class="col-12 col-sm-6">
+              <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
+                <span class="text-end fs-6 custom-color">بیمارستان چند تخصصی</span>
+                <i class="far fa-check-circle text-success fs-5"></i>
               </div>
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-2">
-                <div
-                  class="w-100 features-box-item py-2  rounded-3 bg-light d-flex justify-content-center align-items-center"
-                >
-                  <span class="px-2">خدمات دندانپزشکی</span>
-                  <i class="far fa-check-circle check-icon"></i>
-                </div>
+            </div>
+    
+            <div class="col-12 col-sm-6">
+              <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
+                <span class="text-end fs-6 custom-color">خدمات دندانپزشکی</span>
+                <i class="far fa-check-circle text-success fs-5"></i>
               </div>
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-2">
-                <div
-                  class="w-100 features-box-item py-2  bg-light rounded-3 d-flex justify-content-center align-items-center"
-                >
-                  <span class=" px-2"> قرارداد تمامی بیمه ها</span>
-                  <i class="far fa-check-circle check-icon"></i>
-                </div>
+            </div>
+    
+            <div class="col-12 col-sm-6">
+              <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
+                <span class="text-end fs-6 custom-color">قرارداد تمامی بیمه‌ها</span>
+                <i class="far fa-check-circle text-success fs-5"></i>
               </div>
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-2">
-                <div
-                  class="w-100 features-box-item py-2  bg-light rounded-3 d-flex justify-content-center align-items-center"
-                >
-                  <span class=" px-2">متخصصین حرفه ای </span>
-                  <i class="far fa-check-circle check-icon"></i>
-                </div>
+            </div>
+    
+            <div class="col-12 col-sm-6">
+              <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
+                <span class="text-end fs-6 custom-color">متخصصین حرفه‌ای</span>
+                <i class="far fa-check-circle text-success fs-5"></i>
               </div>
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-2">
-                <div
-                  class="w-100 features-box-item py-2  bg-light rounded-3 d-flex justify-content-center align-items-center"
-                >
-                  <span class=" px-2">پشتیبانی ۲۴ ساعته</span>
-                  <i class="far fa-check-circle check-icon"></i>
-                </div>
+            </div>
+    
+            <div class="col-12 col-sm-6">
+              <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
+                <span class="text-end fs-6 custom-color">پشتیبانی ۲۴ ساعته</span>
+                <i class="far fa-check-circle text-success fs-5"></i>
               </div>
             </div>
           </div>
@@ -294,15 +274,13 @@
       </div>
     </div>
     <!-- END Features -->
-
-       <!-- Start Comments  -->
-       <div class="container mt-5">
+    <!-- Start Comments  -->
+    <div class="container mt-5">
         <div class="row">
-          <div class="comments-titleBox mt-3 ">
-            <h5 class="comments-title">  نظر کاربران</h5>
+          <div class="col-12 text-center mb-4">
+            <h5 class="fw-bold text-primary">نظرات</h5>
           </div>
         </div>
-  
          <!-- Swiper -->
     <div class="row mt-5">
       <div class="swiper mySwiper" id="comments">
@@ -311,18 +289,16 @@
         </div>
       </div>
     </div>
+    </div>
+    <!-- END Comments  -->
+    <!-- Start Blogs  -->
+    <div class="container mt-5" >
+      <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h5 class="fw-bold text-primary"> مقالات</h5>
       </div>
-      <!-- END Comments  -->
-
-        <!-- Start Blogs  -->
-        <div class="container mt-5" >
-          <div class="row">
-            <div class="blog-titleBox mt-3 ">
-              <h5 class="blog-title">  وبلاگ ما</h5>
-            </div>
-          </div>
-    
-<!-- Swiper -->
+      </div>
+    <!-- Swiper -->
       <div class="row mt-5">
         <div class="swiper mySwiper" id="blogs">
           <div class="swiper-wrapper" >
@@ -330,9 +306,8 @@
           </div>
         </div>
       </div>
-        </div>
-        <!-- END Blogs  -->
-
+    </div>
+    <!-- END Blogs  -->
     <!-- Start Footer Section -->
     <footer class="footer-shadow mt-5 py-5 h-auto" aria-labelledby="footer-heading">
       <div class="container">
@@ -404,11 +379,9 @@
         </div>
       </div>
     </footer>
-    
-
     <!-- END Footer Section -->
-     <!-- Start SubFooter -->
-     <div class="container-fluid py-3" id="subFooter">
+    <!-- Start SubFooter -->
+    <div class="container-fluid py-3" id="subFooter">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
@@ -424,25 +397,19 @@
         </div>
       </div>
     </div>
-      <!-- END SubFooter -->
-    
+    <!-- END SubFooter -->
 
     <!-- Axios CDN -->
-
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
      <!-- Sweet Alert-->
      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <!-- Bootsrap Files-->
     <script src="Assets/Libs/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
     <script src="Assets/Libs/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
     <!-- Font Awesome -->
     <script src="Assets/Libs/fontawesome-pro-5.15.3-web/js/all.min.js"></script>
-
     <!-- My Script Files-->
     <script type="module" src="Assets/Js/scripts/validate.js"></script>
     <script type="module" src="Assets/Js/scripts/search.js"></script>
@@ -451,10 +418,6 @@
     <script src="Assets/Js/darkMode.js"></script>
     <script src="Assets/Js/swipers.js"></script>
     <script src="Assets/Js/generalScripts.js"></script>
-    
     <script type="module" src="Assets/Js/scripts/main.js"></script>
-
-  
-
   </body>
 </html>
