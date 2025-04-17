@@ -2,27 +2,22 @@
 <html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content=" پزشک انلاین,مشاوره انلاین ,مشاوره اینترنتی,دریافت نوبت ,درمان انلاین,پزشک تو, رزرو نوبت , نوبت اینترنتی ">
+    <meta
+      name="description"
+      content=" پزشک انلاین,مشاوره انلاین ,مشاوره اینترنتی,دریافت نوبت ,درمان انلاین,پزشک تو, رزرو نوبت , نوبت اینترنتی "/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>جزئیات </title>
+    <title>جزئیات</title>
 
     <!-- FavIcon -->
     <link rel="icon" href="Assets/imgs/logo/favicon.png" />
-
     <!-- Import FontAwesome -->
     <link
       rel="stylesheet"
-      href="Assets/Libs/fontawesome-pro-5.15.3-web/css/all.min.css"
-    />
-
+      href="Assets/Libs/fontawesome-pro-5.15.3-web/css/all.min.css"/>
     <!-- Import Bootsrap 5 CDN -->
     <link
       rel="stylesheet"
-      href="Assets/Libs/bootstrap-5.2.3-dist/css/bootstrap.min.css"
-    />
-
-   
-
+      href="Assets/Libs/bootstrap-5.2.3-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="Assets/Css/main-styles.css" />
   </head>
   <body>
@@ -31,491 +26,445 @@
       <span>لطفا منتظر بمانید ...</span>
     </div>
     <!-- END Loading -->
-
     <!-- Start DedicatedScroll Division -->
-
     <div id="dedicatedScroll"></div>
-
     <!-- END DedicatedScroll Division -->
+    <!-- Start Navbar Menu -->
+    <div
+      class="container-fluid shadow-md sticky-top rounded-bottom greenLight-bg py-3"
+      id="header-nav"
+    >
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <h3 class="navbar-brand fs-2 custom-color logoText d-none d-lg-block">
+            OnlineDoc
+          </h3>
 
-     <!-- Start Navbar Menu -->
-     <div class="container-fluid  " id="header-nav">
-      <div class="row ">
-        <section class="header-nav_items d-flex justify-content-between align-items-center ">
-          <div class="col-md-3 col-lg-3 col-xl-3 col-xl-3 d-none d-md-block">
-            <div class="header-nav_logoBox  w-50 h-100 m-auto">
-              <h1 class="header-nav_logoText">OnlineDoc</h1>
-            </div>
-          </div>   
-          <div class="col-md-5 col-lg-5 col-xl-5 col-xl-5">
-            <div class="header-nav_item pt-2 d-flex justify-content-center align-items-center">
-              <div
-                class="header-nav_item--menu  d-none d-md-block d-lg-block d-xl-block d-xxl-block"
+          <!-- Hamburger Button -->
+          <button
+            class="navbar-toggler shadow-none border-1 border-success"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Desktop Menu 1024px -->
+          <div
+            class="collapse navbar-collapse d-none d-lg-flex slide-in-right"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3 menu-item">
+                <a class="nav-link custom-color hover-3" href="index.html"
+                  >خانه</a
+                >
+              </li>
+              <li class="nav-item px-3 menu-item">
+                <a class="nav-link custom-color hover-3" href="#">دکترها</a>
+              </li>
+              <li class="nav-item px-3 menu-item">
+                <a class="nav-link custom-color hover-3" href="#">بیماران</a>
+              </li>
+              <li class="nav-item px-3 menu-item">
+                <a class="nav-link custom-color hover-3" href="about.html"
+                  >درباره ما</a
+                >
+              </li>
+              <li class="nav-item px-3 menu-item">
+                <a class="nav-link custom-color hover-3" href="services.html"
+                  >خدمات</a
+                >
+              </li>
+              <li class="nav-item px-3 menu-item">
+                <a class="nav-link custom-color hover-3" href="contactUs.html"
+                  >تماس باما</a
+                >
+              </li>
+            </ul>
+
+            <!-- Buttons and Dark Mode -->
+            <div class="d-flex gap-2 mb-3 mb-lg-0">
+              <a href="myReservations.html" class="btn btn-outline-primary"
+                >نوبت من</a
               >
-                <ul class="header-nav_item--menu-list d-flex justify-content-center align-items-center">
-                  <li>
-                    <a href="index.html" class="header-nav_item--link hover-3 ">
-                      خانه</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="header-nav_item--link hover-3 ">
-                       دکترها</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="header-nav_item--link hover-3 ">
-                      بیماران</a
-                    >
-                  </li>
-                  <li>
-                    <a href="about.html" class="header-nav_item--link hover-3 ">
-                      درباره ما</a
-                    >
-                  </li>
-                  <li>
-                    <a href="services.html" class="header-nav_item--link hover-3 ">
-                      خدمات</a
-                    >
-                  </li>
-                  <li>
-                    <a href="contactUs.html" class="header-nav_item--link hover-3">
-                      تماس باما</a
-                    >
-                  </li>
-                </ul>
+              <a href="register.html" class="btn btn-outline-secondary"
+                >ورود | ثبت‌نام</a
+              >
+            </div>
+            <div class="d-flex gap-2 mb-3 mb-lg-0 ms-3 align-items-center">
+              <div
+                class="switch btn btn-outline-dark d-flex align-items-center justify-content-between px-2 py-1"
+              >
+                <div class="fliker bg-white rounded-circle d-block"></div>
+                <i class="fas fa-moon text-white ms-2"></i>
               </div>
-              <!-- Hamburger menu for mobile -->
-              <div class="hamburger d-block d-md-none">
-                <div class="hamburger-icon">
-                  <i class="fas fa-bars icon-bar"></i>
-                </div>
-                <ul class="hamburger-menu-list ">
-                 
-                  <li>
-                    <a href="index.html" class="header-nav_item--link hover-3">
-                      خانه</a
-                    >
-                  </li>
-                  <li class="hamburger-menu-list--item">
-                    <a href="#" class="header-nav_item--link hover-3">
-                       دکترها</a
-                    >
-                  </li>
-                  <li class="hamburger-menu-list--item">
-                    <a href="#" class="header-nav_item--link hover-3">
-                      بیماران</a
-                    >
-                  </li>
-                  <li class="hamburger-menu-list--item">
-                    <a href="about.html" class="header-nav_item--link hover-3">
-                      درباره ما</a
-                    >
-                  </li>
-                  <li class="hamburger-menu-list--item">
-                    <a href="services.html" class="header-nav_item--link hover-3">
-                      خدمات</a
-                    >
-                  </li>
-                  <li class="hamburger-menu-list--item">
-                    <a href="contactUs.html" class="header-nav_item--link hover-3 ">
-                      تماس باما</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <!-- Hamburger menu for mobile -->
             </div>
           </div>
-          <div class="col-md-4 col-lg-4 col-xl-4 col-xl-4 d-flex justify-content-center align-items-center">
-           <div class="header-nav_login--wrapper  d-flex justify-content-center align-items-center">
-            <div class="header-nav_login--myReserve d-flex justify-content-center align-items-center">
-              <a href="myReservations.html" class="myReservations-btn d-block text-light w-100 h-100">نوبت من</a>
-            </div> 
-            <div class="header-nav_login--itemRight d-flex justify-content-between align-items-center text-light "> 
-              <a href="register.html" class="login-btn  d-block text-light w-100 h-100">ورود | ثبت نام</a>
-            </div>
-           <div class="header-nav_login--itemLeft">
-            <div class="switch">
-              <div class="fliker"></div>
-              <div class="moon"></div>
-            </div>
-           </div>
-           </div>
-          </div>
-        </section>
         </div>
+      </nav>
+    </div>
+    <!-- Offcanvas Menu -->
+    <div
+      class="offcanvas offcanvas-end bg-custom"
+      tabindex="-1"
+      id="mobileMenu"
+      aria-labelledby="mobileMenuLabel"
+      style="width: 300px"
+    >
+      <div class="offcanvas-header">
+        <h5
+          class="offcanvas-title navbar-brand fs-2 text-primary logoText"
+          id="mobileMenuLabel"
+        >
+          OnlineDoc
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset bg-custom p-3 shadow-none border-0 rounded"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
-   
-      <!-- END Navbar Menu -->
-
-    <div class="container-fluid">
-      <div class="row m-auto">
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item text-center mt-2">
+            <a class="nav-link" href="index.html">خانه</a>
+          </li>
+          <li class="nav-item text-center mt-2">
+            <a class="nav-link" href="#">دکترها</a>
+          </li>
+          <li class="nav-item text-center mt-2">
+            <a class="nav-link" href="#">بیماران</a>
+          </li>
+          <li class="nav-item text-center mt-2">
+            <a class="nav-link" href="about.html">درباره ما</a>
+          </li>
+          <li class="nav-item text-center mt-2">
+            <a class="nav-link" href="services.html">خدمات</a>
+          </li>
+          <li class="nav-item text-center mt-2">
+            <a class="nav-link" href="contactUs.html">تماس باما</a>
+          </li>
+        </ul>
         <div
-          class="doctors-heade-img w-100 d-flex justify-content-center align-items-center" >
-          <h5 class="doctors-heade-img_title">همین حالا نوبت بگیرید</h5>
+          class="d-flex justify-content-around bg-custom py-3 align-items-center my-4"
+        >
+          <a href="myReservations.html" class="btn btn-outline-primary"
+            >نوبت من</a
+          >
+          <a href="register.html" class="btn btn-outline-secondary"
+            >ورود | ثبت‌نام</a
+          >
+        </div>
+        <div
+          class="d-flex justify-content-center mt-3 py-3 bg-custom align-items-center"
+        >
+          <div
+            class="switch btn btn-outline-dark d-flex align-items-center justify-content-between px-2 py-1"
+          >
+            <div class="fliker bg-white rounded-circle d-block"></div>
+            <i class="fas fa-moon text-white ms-2"></i>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- Start Doctors InfoBox -->
-    <div class="container" id="test">
-      <div class="row">
-        <div
-          class="col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7 test-item mt-3"
-        >
-          <div
-            class="doctors-information_heade-rightBox d-flex flex-row-reverse justify-content-center align-items-center"
-          >
-            <div
-              class="heade-rightBox_itemLeft d-flex flex-column justify-content-center align-items-center"
-            >
-              <h5 id="doctor-title"></h5>
-              <h6 id="doctor-Speciallity"></h6>
-              <h6 class="nezam-code">
-                کد نظام پزشکی : <span id="nezamCode"></span>
-              </h6>
-              <h6>استان :<span class="state"></span></h6>
-              <span class="doctor-location">
-                &nbsp;&nbsp; <span class="doctor-address"></span>
-                <h4 class="location-text">شهر محل طبابت :</h4>
-                <i class="fa fa-location location-icon"></i>
-              </span>
-            </div>
-            <div class="heade-rightBox_itemRight">
-              <div class="heade-rightBox_itemRight-img w-100">
-                <img
-                  id="doctor-image"
-                  class="d-block cover"
-                  src=""
-                  alt="doctor-img"
-                />
-              </div>
-              <div class="heade-rightBox_itemRight-status mt-2">
-                <h6>وضعیت : آنلاین</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 test-item mt-5 mt-sm-2"
-        >
-          <div
-            class="doctors-information_heade-leftBox d-flex justify-content-center align-items-center"
-          >
-            <div
-              class="Reservation mx-1 p-2 d-flex justify-content-center align-items-center"
-            >
-              <a
-                href="#"
-                class="text-light"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-bs-whatever="@getbootstrap"
-                >رزرو نویت
-              </a>
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div
-                      class="modal-header d-flex justify-content-between align-items-center"
-                    >
-                    <div>
-                      <h5
-                        class="modal-title "
-                        id="exampleModalLabel"
-                      >
-                        رزرو نوبت
-                      </h5>
-                    </div>
-                      <div>
-                        <button
-                          type="button"
-                          class="btn-close close-icon"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                      </div>
-                    
-                    </div>
-                    <div class="modal-body">
-                      <form class="reservation-form_parent" id="reservation-form_parent" action="reservation.php" method="post">
-                        <div class="mt-3">
-                          <input
-                            type="text"
-                            class="form-control py-2"
-                            id="reservation-fullName"
-                            name="reservation-fullName"
-                            placeholder="نام و نام خانوادگی"
-                            
-                          />
-                        </div>
-                        <div class="mt-3">     
-                          <input
-                            type="number"
-                            class="form-control py-2"
-                            id="reservation-phoneNumber"
-                            name="reservation-phoneNumber"
-                            placeholder=" شماره تماس  "
-                            
-                          />
-                        </div>
-                        <div class="mt-3">
-                          <input
-                            type="number"
-                            class="form-control py-2"
-                            id="national-code"
-                            name="national-code"
-                            placeholder="کدملی"
-                            
-                          />
-                        </div>
-                        <div class="mt-3">
-                          <input
-                            type="date"
-                            class="form-control py-2"
-                            id="reserve-date"
-                            name="reserve-date"
-                            
-                          />
-                        </div>
-                        <div class="mt-3">
-                          <input
-                            type="time"
-                            class="form-control py-2"
-                            id="reserve-time"
-                            name="reserve-time"
-                            
-                          />
-                        </div>
-                        <div class="modal-footer p-0 mt-3">
-                          <button type="submit" class="reservation-form_btn d-block w-100 py-3" id="send">
-                            تایید و رزرو نوبت 
-                          </button>
-                        </div>
-                      </form>
-                    </div>
-                   
-                  </div>
-                </div>
-              </div>
-              <i class="fa fa-clock custom-icon"></i>
-            </div>
-            <div
-              class="offer d-flex mx-1 p-2 justify-content-center align-items-center"
-            >
-              <a href="" class="text-light"> پیشنهاد میکنم</a>
-              <i class="fa fa-check custom-icon"></i>
-            </div>
-            <div
-              class="not-suggest mx-1 p-2 d-flex justify-content-center align-items-center"
-            >
-              <a href="" class="text-light"> پیشنهاد نمی کنم</a>
-              <i class="fa fa-times custom-icon"></i>
-            </div>
-          </div>
+    <!-- END Navbar Menu -->
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-11 col-md-10 col-lg-8 bg-primary bg-opacity-10 text-primary border border-primary rounded-3 shadow-sm py-3 px-4 text-center mt-4">
+          <h6 class="fw-semibold mb-0">همین حالا نوبت بگیرید</h6>
         </div>
       </div>
-
-      <div class="row mt-5 py-3">
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl65 col-xxl-6">
-          <div class="doctors-information_rules">
-            <ul
-              class="doctors-information_rules--item d-flex flex-column justify-content-end align-items-start text-center"
-            >
-              <li class="mt-2 d-flex justify-content-end align-items-start">
-                <i class="fa fa-check check-icon"></i>
-                <p>حتما 20 دقیقه قبل از زمان رزرو شده در مطب حضور یابید</p>
-              </li>
-              <li class="mt-2 d-flex justify-content-end align-items-start">
-                <i class="fa fa-check check-icon"></i>
-                <p>
-                  اطلاعات را صحیح وارد کنید، جزئیات نوبت به اطلاعات وارد شده
-                  ارسال خواهد شد
+    </div>
+    <!-- Start Doctors InfoBox -->
+    <div class="container my-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm">
+            <div class="row g-0 align-items-center">
+              <div class="col-md-4 text-center p-3">
+                <img
+                  src=""
+                  id="doctor-image"
+                  class="img-fluid rounded-circle border border-3 border-primary"
+                  alt="doctor-img"
+                />
+                <p class="mt-2 text-success fw-semibold">وضعیت: آنلاین</p>
+              </div>
+              <div class="col-md-8 p-3 text-end">
+                <h5 id="doctor-title" class="fw-bold"></h5>
+                <p id="doctor-Speciallity" class="mb-1 text-muted"></p>
+                <p class="mb-1">
+                  کد نظام پزشکی: <span id="nezamCode" class="fw-medium"></span>
                 </p>
-              </li>
-              <li class="mt-2 d-flex justify-content-end align-items-start">
-                <i class="fa fa-check check-icon"></i>
-                <p>
-                  رزرو نوبت به منزله تایید نبوده و تایید نهایی نوبت به شما با
-                  پیامک ارسال میشود
+                <p class="mb-1">استان: <span class="state fw-medium"></span></p>
+                <p class="mb-1">
+                  شهر محل طبابت: <span class="doctor-address fw-medium"></span>
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card h-100 shadow p-4 border-0 bg-gradient rounded-3" style="background: rgba(0, 123, 255, 0.1); backdrop-filter: blur(10px);">
+            <h5 class="fw-bold text-end text-primary mb-4">نظر شما درباره پزشک:</h5>
+            <div class="d-grid gap-3">
+              <button
+                class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <i class="fa fa-calendar-check ms-2"></i> رزرو نوبت
+              </button>
+        
+              <button class="btn btn-outline-success btn-lg">
+                <i class="fa fa-thumbs-up ms-2"></i> پیشنهاد می‌کنم
+              </button>
+        
+              <button class="btn btn-outline-danger btn-lg">
+                <i class="fa fa-thumbs-down ms-2"></i> پیشنهاد نمی‌کنم
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card shadow-sm p-3">
+            <h6 class="fw-bold text-end mb-3">نکات مهم:</h6>
+            <ul class="list-group list-group-flush text-end">
+              <li class="list-group-item">
+                <i class="fa fa-check text-success ms-2"></i> 20 دقیقه قبل از
+                زمان نوبت حضور یابید
               </li>
-              <li class="mt-2 d-flex justify-content-end align-items-start">
-                <i class="fa fa-check check-icon"></i>
-                <p>
-                  کلیه خدمات پزشک و ارایه نسخه بصورت تمام الکترونیک انجام میشود
-                </p>
+              <li class="list-group-item">
+                <i class="fa fa-check text-success ms-2"></i> اطلاعات صحیح وارد
+                شود، نوبت پیامک می‌شود
               </li>
-              <li class="mt-2 d-flex justify-content-end align-items-start">
-                <i class="fa fa-check check-icon"></i>
-                <p>
-                  درصورت عدم حضور نوبت شما ابطال خواهد شد و قابل پیگیری نمی باشد
-                </p>
+              <li class="list-group-item">
+                <i class="fa fa-check text-success ms-2"></i> تایید نهایی با
+                پیامک ارسال می‌شود
               </li>
-              <li class="mt-2 d-flex justify-content-end align-items-start">
-                <i class="fa fa-check check-icon"></i>
-                <p>پرداخت هزینه ویزیت تنها بصورت آنلاین انجام می شود</p>
+              <li class="list-group-item">
+                <i class="fa fa-check text-success ms-2"></i> نسخه به‌صورت
+                الکترونیکی صادر می‌شود
               </li>
-              <li class="mt-2 d-flex justify-content-end align-items-start">
-                <i class="fa fa-check check-icon"></i>
-                <p>ارایه کارت ملی در زمان مراجعه الزامی است</p>
+              <li class="list-group-item">
+                <i class="fa fa-check text-success ms-2"></i> عدم حضور = ابطال
+                نوبت
+              </li>
+              <li class="list-group-item">
+                <i class="fa fa-check text-success ms-2"></i> پرداخت فقط آنلاین
+                است
+              </li>
+              <li class="list-group-item">
+                <i class="fa fa-check text-success ms-2"></i> کارت ملی همراه
+                داشته باشید
               </li>
             </ul>
           </div>
         </div>
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div id="doctors-information_items">
-            <!-- Load Data From Api -->
+        <div class="col-lg-6">
+          <div class="card shadow-sm p-3 h-100 border-0 bg-gradient" style="background: rgba(0, 123, 255, 0.1); backdrop-filter: blur(8px);">
+            <div id="doctors-information_items" class="text-end">
+              <!-- Load from API -->
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div
+            id="doctors-address"
+            class="bg-light d-flex justify-content-around align-items-center p-4 rounded-3 shadow-lg text-center" >
+            <!-- Address Content -->
           </div>
         </div>
       </div>
-      <div class="row mt-5">
-        <div
-          id="doctors-address"
-          class="d-flex justify-content-around align-items-center"
-        ></div>
-      </div>
     </div>
     <!-- Start Doctors InfoBox -->
-
     <!-- Start Footer Section -->
-    <footer class="footer mt-5 py-3 h-auto border border-top">
+    <footer
+      class="footer-shadow mt-5 py-5 h-auto"
+      aria-labelledby="footer-heading"
+    >
       <div class="container">
-        <div
-          class="row d-flex flex-row-reverse justify-content-center align-items-center"
-        >
-          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3col-xxl-3">
+        <div class="row justify-content-center align-items-center">
+          <div
+            class="col-12 col-md-3 mt-4"
+            role="complementary"
+            aria-labelledby="contact-info"
+          >
             <div
-              class="member-item d-flex flex-column justify-content-center align-items-center text-center"
+              class="d-flex flex-column justify-content-center align-items-center text-center"
             >
-              <p class="member-item_txt">
-                سلام دوست عزیز، ممنون که ما رو دنبال می‌کنی
+              <p class="custom-color" id="contact-info">
+                سلام دوست عزیز، خوشحالیم که به ما پیوستی
               </p>
               <form
                 action="index.php"
-                method="post"
-                class="d-flex justify-content-center align-items-center"
+                method="POST"
+                class="d-flex justify-content-center align-items-center gap-2 flex-wrap"
+                aria-labelledby="email-form"
               >
                 <input
-                  class="py-2"
+                  class="form-control py-2 w-auto"
                   type="email"
                   name="email"
                   id="email-input"
                   placeholder="ایمیل خود را وارد کنید"
+                  aria-label="وارد کردن ایمیل"
                 />
-                <button type="submit" class="submit-btn" value="">ارسال</button>
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  aria-label="ارسال ایمیل"
+                >
+                  ارسال
+                </button>
               </form>
             </div>
           </div>
-          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3col-xxl-3">
+
+          <div
+            class="col-12 col-md-3 mt-4"
+            role="navigation"
+            aria-labelledby="quick-links"
+          >
             <div
-              class="access-links d-flex justify-content-center flex-column align-items-center"
+              class="d-flex flex-column justify-content-center align-items-center"
             >
-              <div class="access-links_title text-center pt-3">
-                لینک های سریع
+              <div class="text-center pt-3 custom-color" id="quick-links">
+                لینک‌های سریع
               </div>
-              <ul
-                class="access-links_inner d-flex justify-content-center align-items-center flex-column p-0 pt-3 px-3"
-              >
+              <ul class="pt-3">
                 <li class="mt-2">
-                  <a class="access-links_inner--link" href="#">قرار ملاقات</a>
+                  <a class="custom-color" href="#">قرار ملاقات</a>
                 </li>
                 <li class="mt-2">
-                  <a class="access-links_inner--link" href="#">حریم خصوصی </a>
+                  <a class="custom-color" href="#">حریم خصوصی</a>
                 </li>
                 <li class="mt-2">
-                  <a class="access-links_inner--link" href="#">شرایط و ضوابط</a>
+                  <a class="custom-color" href="#">شرایط و ضوابط</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3col-xxl-3">
+
+          <div
+            class="col-12 col-md-3 mt-4"
+            role="navigation"
+            aria-labelledby="useful-links"
+          >
             <div
-              class="location-links d-flex justify-content-center flex-column align-items-center"
+              class="d-flex flex-column justify-content-center align-items-center"
             >
-              <div class="location-links_title text-center">لینک های مفید</div>
-              <div
-                class="location-links_inner d-flex justify-content-center align-items-center flex-column p-0 pt-3 px-3"
-              >
+              <div class="text-center custom-color" id="useful-links">
+                لینک‌های مفید
+              </div>
+              <div class="d-flex flex-column p-0 pt-3 custom-color">
                 <div
-                  class="location-links_inner--item mt-3 d-flex justify-content-center align-items-center"
+                  class="mt-3 d-flex align-items-center"
+                  aria-labelledby="location"
                 >
-                  <i class="far fa-location location-icons"></i>
-                  <span> مشهد - خیابان پاستور </span>
+                  <i class="far fa-location" aria-hidden="true"></i>
+                  <span>مشهد - خیابان پاستور</span>
                 </div>
                 <div
-                  class="location-links_inner--item mt-3 d-flex justify-content-center align-items-center"
+                  class="mt-3 custom-color d-flex align-items-center"
+                  aria-labelledby="phone"
                 >
-                  <i class="far fa-phone phone-icons"></i>
-                  <span> ۰۹۳۳۹۶۱۰۸۴۱ </span>
+                  <i class="far fa-phone" aria-hidden="true"></i>
+                  <span>۰۹۳۳۹۶۱۰۸۴۱</span>
                 </div>
                 <div
-                  class="location-links_inner--item mt-3 d-flex justify-content-center align-items-center"
+                  class="mt-3 custom-color d-flex align-items-center"
+                  aria-labelledby="email"
                 >
-                  <i class="fas fa-envelope email-icons"></i>
-                  <span> info@gmail.com </span>
+                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                  <span>info@gmail.com</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3col-xxl-3">
+
+          <div
+            class="col-12 col-md-3 mt-4"
+            role="complementary"
+            aria-labelledby="company-info"
+          >
             <div
-              class="description-item d-flex flex-column justify-content-between align-items-center"
+              class="d-flex flex-column justify-content-between align-items-center"
             >
-              <div class="description-item_logo mb-3">
-                <h4 class="header-nav_logoText">OnlineDoc</h4>
+              <div class="mb-3">
+                <h4 class="custom-color logoText fs-3" id="company-info">
+                  OnlineDoc
+                </h4>
               </div>
-              <div class="description-item_txt">
-                <p class="description-item_txt--p">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است
+              <div>
+                <p class="custom-color">
+                  ارائه خدمات پزشکی آنلاین با کیفیت، به راحتی و از هر نقطه‌ای
                 </p>
+              </div>
+              <div class="mt-5">
+                <ul
+                  class="d-flex justify-content-center align-items-center list-unstyled"
+                >
+                  <li class="px-3">
+                    <a href="#" class="custom-color" aria-label="LinkedIn"
+                      ><i class="fab fa-linkedin fs-4"></i
+                    ></a>
+                  </li>
+                  <li class="px-3">
+                    <a
+                      href="https://github.com/samiraomidvar7129/Online-Doctor"
+                      class="custom-color"
+                      aria-label="GitHub"
+                      ><i class="fab fa-github fs-4"></i
+                    ></a>
+                  </li>
+                  <li class="px-3">
+                    <a href="#" class="custom-color" aria-label="Facebook"
+                      ><i class="fab fa-facebook fs-4"></i
+                    ></a>
+                  </li>
+                  <li class="px-3">
+                    <a href="#" class="custom-color" aria-label="Instagram"
+                      ><i class="fab fa-instagram fs-4"></i
+                    ></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-
     <!-- END Footer Section -->
-       <!-- Start SubFooter -->
-       <div class="container-fluid py-3" id="subFooter">
-        <div class="row">
-         <div class="container ">
-          <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-              <div class="subFooter-item d-flex justify-content-center align-items-center">
-                <div><i class="fa fa-copyright subFooter-item_copyright "></i></div>
-                <div class="subFooter-item_txt">حقوق این پروژه برای توسعه دهنده محفوظ است</div>
+    <!-- Start SubFooter -->
+    <div class="container-fluid py-3" id="subFooter">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <div class="subFooter-item d-flex align-items-center">
+              <div class="subFooter-item_copyright">
+                <i class="fa fa-copyright custom-color"></i>
               </div>
+              <div class="subFooter-item_txt custom-color">
+                حقوق این پروژه برای توسعه‌دهنده محفوظ است
+              </div>
+            </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-2 mt-sm-1">
-            
-              <ul class="subFooter-item_social d-flex justify-content-center align-items-center">
-                <li><a href="#"><i class="fab fa-linkedin  subFooter-item_icon"></i></a></li>
-                <li><a href="https://github.com/samiraomidvar7129/Online-Doctor"><i class="fab fa-github subFooter-item_icon"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook subFooter-item_icon"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram subFooter-item_icon"></i></a></li>
-              </ul>
-          
-          </div>
-          </div>
-         </div>
         </div>
-       </div>
-        <!-- END SubFooter -->
-     
- <!-- Axios CDN -->
+      </div>
+    </div>
+    <!-- END SubFooter -->
 
- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Axios CDN -->
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!-- Sweet Alert-->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Bootsrap Files-->
@@ -523,13 +472,9 @@
     <script src="Assets/Libs/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
     <!-- Font Awesome -->
     <script src="Assets/Libs/fontawesome-pro-5.15.3-web/js/all.min.js"></script>
-
-
     <script type="module" src="Assets/Js/scripts/validate.js"></script>
-    
     <script src="Assets/Js/generalScripts.js"></script>
     <script src="Assets/Js/darkMode.js"></script>
-    <script  type="module" src="Assets/Js/details.js"></script>
-
+    <script type="module" src="Assets/Js/details.js"></script>
   </body>
 </html>

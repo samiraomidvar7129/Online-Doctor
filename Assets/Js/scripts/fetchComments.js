@@ -1,2 +1,1 @@
-
 import{axiosInstance}from"./axiosConfig.js";export const fetchComments=()=>axiosInstance.get("comments.json").then(response=>response.data).catch(error=>{throw console.error("Error Fetching comments:",error),error});

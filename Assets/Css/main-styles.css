@@ -1,16 +1,7 @@
 @import "./_Fonts.css";
 @import "./_Loader.css";
 @import "./_DedicatedScroll.css";
-@import "./_Login.css";
-@import "./_Register.css";
 @import "./_Navbar.css";
-@import "./_HeaderContent.css";
-@import "./_Features.css";
-@import "./_Comments.css";
-@import "./_Blogs.css";
-@import "./_Contact.css";
-@import "./_MyReservations.css";
-@import "./_Doctors-Search.css";
 *,
 *::after,
 *::before {
@@ -32,15 +23,24 @@ a:active,
 a:hover {
   text-decoration: none;
 }
+::placeholder{
+  font-size: 14px
+}
 body{
   background-color: #E1F5FE;
 }
-
+.star{
+  color: goldenrod;
+  cursor: pointer;
+}
 .custom-color{
   color:#0d47a1; 
 }
 .blue-bg{
   background-color: #0d47a1;
+}
+.greenLight-bg{
+  background-color: #B3E5FC;
 }
 .footer-shadow {
   box-shadow: 0px -4px 15px rgba(13, 71, 161, 0.15); 
@@ -51,4 +51,9 @@ body{
 }
 .bg-custom{
   background-color: #E1F5FE;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
