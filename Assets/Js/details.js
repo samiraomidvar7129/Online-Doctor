@@ -1,6 +1,8 @@
 import { fetchDoctorsList } from "./scripts/fetchDoctors.js";
 import { validatetReservationForm } from "./scripts/RerservationValidation.js";
+
 const reservationForm = document.getElementById("reservation-form_parent");
+
 document.addEventListener("DOMContentLoaded", () => {
   getQueryParams();
 });
@@ -95,7 +97,10 @@ const getQueryParams = async () => {
   <span class="star fs-6" data-value="5">
   <img src="Assets/imgs/icons/star.png" loading="lazy" width="40" height="40" alt="news"/></span> </div>
   <p id="result" class="mt-3"></p> </div></div> </div> `;
-      // Stars Rating  --------------------------------------------------------------------
+
+
+      //? Stars Rating  ---------------------------------------------------------------->
+
       const stars = document.querySelectorAll(".star");
       const result = document.getElementById("result");
       const previousRating = localStorage.getItem("user-rating");
@@ -121,9 +126,8 @@ const getQueryParams = async () => {
             star.classList.remove("selected");
           }
         });
-      }
-    }
-  }
+      }}};
+
   if (reservationForm) {
     reservationForm.addEventListener("submit", validatetReservationForm);
   }
