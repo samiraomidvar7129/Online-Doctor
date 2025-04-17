@@ -1,7 +1,7 @@
 var swiper = new Swiper("#doctorsList", {
     slidesPerView: 4,
     spaceBetween: 10,
-    loop: !0,
+    loop:true,
     autoplay: { delay: 2000, disableOnInteraction: !6 },
     breakpoints: {
       300: { slidesPerView: 1, spaceBetween: 20 },
@@ -13,7 +13,7 @@ var swiper = new Swiper("#doctorsList", {
   swiper = new Swiper("#comments", {
     slidesPerView: 3,
     spaceBetween: 10,
-    loop: !0,
+    loop:true,
     autoplay: { delay: 4000, disableOnInteraction: !1 },
     breakpoints: {
       300: { slidesPerView: 1, spaceBetween: 20 },
@@ -25,7 +25,7 @@ var swiper = new Swiper("#doctorsList", {
   swiper = new Swiper("#blogs", {
     slidesPerView: 3,
     spaceBetween: 10,
-    loop: !0,
+    loop: true,
     autoplay: { delay: 6000, disableOnInteraction: !1 },
     breakpoints: {
       300: { slidesPerView: 1, spaceBetween: 20 },
