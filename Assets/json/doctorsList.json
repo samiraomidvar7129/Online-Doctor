@@ -314,6 +314,50 @@
       "comments": "30",
       "answers": "14",
       "phoneNumber": "۰۹۳۳۹۶۱۰۸۴۱ - ۰۵۱۳۲۴۳۷۸۹۵"
+    }, {
+      "id": "22",
+      "Name": "دکتر  محمود یکتا     ",
+      "NezamCode": " 458289",
+      "ImageUrl": "Assets/imgs/doctor-img/Yekta.jpg",
+      "Speciallity": "   متخصص مغز و اعصاب ",
+      "city": "اصفهان",
+      "officeAddress": "بلوار سرافرازان  کوچه اول، طبقه 2",
+      "state": "    خراسان رضوی ",
+      "gifts": "7",
+      "articles": "12",
+      "comments": "30",
+      "answers": "14",
+      "phoneNumber": "۰۹۳۳۹۶۱۰۸۴۱ - ۰۵۱۳۲۴۳۷۸۹۵"
+    },
+    {
+      "id": "23",
+      "Name": " دکتر محسن وفایی  ",
+      "NezamCode": " 458289",
+      "ImageUrl": "Assets/imgs/doctor-img/Vafayi.jpg",
+      "Speciallity": "   متخصص مغز و اعصاب ",
+      "city": "اصفهان",
+      "officeAddress": "بلوار سرافرازان  کوچه اول، طبقه 2",
+      "state": "    خراسان رضوی ",
+      "gifts": "7",
+      "articles": "12",
+      "comments": "30",
+      "answers": "14",
+      "phoneNumber": "۰۹۳۳۹۶۱۰۸۴۱ - ۰۵۱۳۲۴۳۷۸۹۵"
+    },
+    {
+      "id": "24",
+      "Name": "دکتر  فرشاد طوسی     ",
+      "NezamCode": " 458289",
+      "ImageUrl": "Assets/imgs/doctor-img/Tosi.jpg",
+      "Speciallity": "   متخصص مغز و اعصاب ",
+      "city": "اصفهان",
+      "officeAddress": "بلوار سرافرازان  کوچه اول، طبقه 2",
+      "state": "    خراسان رضوی ",
+      "gifts": "7",
+      "articles": "12",
+      "comments": "30",
+      "answers": "14",
+      "phoneNumber": "۰۹۳۳۹۶۱۰۸۴۱ - ۰۵۱۳۲۴۳۷۸۹۵"
     }
   ]
 }

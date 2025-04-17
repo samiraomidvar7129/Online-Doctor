@@ -13,7 +13,7 @@
   outline: none !important;
   list-style: none;
   outline: none;
-  font-weight: 700;
+  font-weight: normal;
 }
 html {
   scroll-behavior: smooth !important;
@@ -26,11 +26,7 @@ a:hover {
 ::placeholder{
   font-size: 14px
 }
-body{
-  background-color: #E1F5FE;
-}
 .star{
-  color: goldenrod;
   cursor: pointer;
 }
 .custom-color{

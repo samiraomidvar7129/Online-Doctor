@@ -24,12 +24,13 @@ const getQueryParams = async () => {
         .getElementById("doctor-image")
         .setAttribute("src", doctorList.doctors[doctor].ImageUrl);
       document.getElementById("doctors-address").innerHTML += `
-          <div class="d-flex justify-content-center align-items-center">
-          <i class="fa fa-map-marker address-icon mx-2 custom-color"></i>
+          <div class="d-flex justify-content-center gap-3 align-items-center">
+            <img src="Assets/imgs/icons/location.png" loading="lazy" width="40" height="40" alt="location"/>
           <span>آدرس مطب : </span>
           <div>${doctorList.doctors[doctor].officeAddress}</div> </div>
-          <div class="d-flex justify-content-center align-items-center">
-          <i class="fa fa-mobile address-icon mx-2 custom-color"></i> <span> شماره تماس : </span>
+          <div class="d-flex justify-content-center gap-3 align-items-center">
+            <img src="Assets/imgs/icons/phone.png" loading="lazy" width="40" height="40" alt="phone"/>
+           <span> شماره تماس : </span>
           <div>${doctorList.doctors[doctor].phoneNumber}</div></div>`;
       let doctorsInformationItems = document.querySelector(
         "#doctors-information_items"
@@ -38,7 +39,7 @@ const getQueryParams = async () => {
        <div class="row mt-3">
   <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4 mt-sm-1">
     <div class="d-flex flex-column justify-content-center align-items-center">
-      <i class="fa fa-gift fs-4 text-primary"></i>                
+       <img src="Assets/imgs/icons/gift.png" loading="lazy" width=40" height="40" alt="gift"/>
       <span class="doctors-information_item mt-2 text-center">
         <h6 class="doctors-information_item--title text-muted">جوایز</h6>
         <span class="gifts doctors-information_item--number fs-4 fw-bold text-dark">${doctorList.doctors[doctor].gifts}</span>
@@ -48,7 +49,7 @@ const getQueryParams = async () => {
 
   <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4 mt-sm-1">
     <div class="d-flex flex-column justify-content-center align-items-center"> 
-      <i class="fa fa-file fs-4 text-info"></i>                
+      <img src="Assets/imgs/icons/news.png" loading="lazy" width="40" height="40" alt="news"/>
       <span class="doctors-information_item mt-2 text-center">
         <h6 class="doctors-information_item--title text-muted">مقالات</h6>
         <span class="article doctors-information_item--number fs-4 fw-bold text-dark">${doctorList.doctors[doctor].articles}</span>
@@ -60,7 +61,7 @@ const getQueryParams = async () => {
 <div class="row mt-5">
   <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4 mt-sm-1">
     <div class="d-flex flex-column justify-content-center align-items-center">
-      <i class="fa fa-comments fs-4 text-success"></i>                
+    <img src="Assets/imgs/icons/chat.png" loading="lazy" width="40" height="40" alt="chat"/>
       <span class="doctors-information_item mt-2 text-center">
         <h6 class="doctors-information_item--title text-muted">نظرات</h6>
         <span class="comments doctors-information_item--number fs-4 fw-bold text-dark">${doctorList.doctors[doctor].comments}</span>
@@ -70,8 +71,8 @@ const getQueryParams = async () => {
 
   <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4 mt-sm-1">
     <div class="d-flex flex-column justify-content-center align-items-center">
-      <i class="fa fa-exclamation fs-4 text-danger"></i>                
-      <span class="doctors-information_item mt-2 text-center">
+      <img src="Assets/imgs/icons/answer.png" loading="lazy" width="40" height="40" alt="answer"/>
+        <span class="doctors-information_item mt-2 text-center">
         <h6 class="doctors-information_item--title text-muted">پاسخ ها</h6>
         <span class="answers doctors-information_item--number fs-4 fw-bold text-dark">${doctorList.doctors[doctor].answers}</span>
       </span>
@@ -82,12 +83,17 @@ const getQueryParams = async () => {
   <div class="row mt-5 bg-light">
   <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5 mt-sm-1">               
   <div class="d-flex flex-column justify-content-center align-items-center">
-  <div id="star-rating" class=" d-flex justify-content-center align-items-center">
-  <span class="star px-1 fs-3" data-value="1">&#9733;</span>
-  <span class="star px-1 fs-3" data-value="2">&#9733;</span>
-  <span class="star px-1 fs-3" data-value="3">&#9733;</span>
-  <span class="star px-1 fs-3" data-value="4">&#9733;</span>
-  <span class="star px-1 fs-3" data-value="5">&#9733;</span> </div>
+  <div id="star-rating" class=" d-flex justify-content-center align-items-center gap-3 pt-2">
+  <span class="star fs-6" data-value="1">
+  <img src="Assets/imgs/icons/star.png" loading="lazy" width="40" height="40" alt="news"/></span>
+  <span class="star fs-6" data-value="2">
+  <img src="Assets/imgs/icons/star.png" loading="lazy" width="40" height="40" alt="news"/></span>
+  <span class="star fs-6" data-value="3">
+  <img src="Assets/imgs/icons/star.png" loading="lazy" width="40" height="40" alt="news"/></span>
+  <span class="star fs-6" data-value="4">
+  <img src="Assets/imgs/icons/star.png" loading="lazy" width="40" height="40" alt="news"/></span>
+  <span class="star fs-6" data-value="5">
+  <img src="Assets/imgs/icons/star.png" loading="lazy" width="40" height="40" alt="news"/></span> </div>
   <p id="result" class="mt-3"></p> </div></div> </div> `;
       // Stars Rating  --------------------------------------------------------------------
       const stars = document.querySelectorAll(".star");

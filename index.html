@@ -8,9 +8,6 @@
 
     <!-- FavIcon -->
     <link rel="icon" href="Assets/imgs/logo/favicon.png" />
-    <!-- Import FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css">
-
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
@@ -35,14 +32,14 @@
     <div id="dedicatedScroll"></div>
     <!-- END DedicatedScroll Division -->
     <!-- Start Navbar Menu -->
-    <div class="container-fluid  shadow-md sticky-top rounded-bottom greenLight-bg py-3" id="header-nav">
+    <div class="container-fluid  shadow-md sticky-top rounded-bottom bg-info py-3" id="header-nav">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <!-- Logo -->
           <h3 class="navbar-brand fs-2 custom-color logoText d-none d-lg-block">OnlineDoc</h3>
     
           <!-- Hamburger Button -->
-          <button class="navbar-toggler shadow-none border-1 border-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+          <button class="navbar-toggler shadow-none " type="button" aria-label="mobileMenu" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
             <span class="navbar-toggler-icon"></span>
           </button>
     
@@ -64,8 +61,8 @@
             </div>
             <div class="d-flex gap-2 mb-3 mb-lg-0 ms-3 align-items-center">
               <div class="switch btn btn-outline-dark d-flex align-items-center justify-content-between px-2 py-1">
-                <div class="fliker bg-white rounded-circle d-block"></div>
-                <i class="fas fa-moon text-white ms-2"></i>
+                <img class="flicker" src="Assets/imgs/icons/sun.png" loading="lazy" width="20" height="20" alt="sun"/>
+                <img src="Assets/imgs/icons/moon.png" loading="lazy" width="20" height="20" alt="moon"/>
               </div>
             </div>
           </div>
@@ -73,9 +70,9 @@
       </nav>
     </div>
     <!-- Offcanvas Menu -->
-    <div class="offcanvas offcanvas-end bg-custom" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel" style="width: 300px;">
+    <div class="offcanvas offcanvas-end bg-info" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel" style="width: 300px;">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title  navbar-brand fs-2 text-primary logoText " id="mobileMenuLabel">OnlineDoc</h5>
+        <h5 class="offcanvas-title  navbar-brand fs-2 custom-color logoText " id="mobileMenuLabel">OnlineDoc</h5>
         <button type="button" class="btn-close text-reset bg-custom p-3 shadow-none border-0 rounded" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -87,14 +84,14 @@
           <li class="nav-item text-center mt-2"><a class="nav-link" href="services.html">خدمات</a></li>
           <li class="nav-item text-center mt-2"><a class="nav-link" href="contactUs.html">تماس باما</a></li>
         </ul>
-        <div class="d-flex justify-content-around bg-custom  py-3 align-items-center my-4">
+        <div class="d-flex justify-content-around   py-3 align-items-center my-4">
           <a href="myReservations.html" class="btn btn-outline-primary">نوبت من</a>
           <a href="register.html" class="btn btn-outline-secondary">ورود | ثبت‌نام</a>
         </div>
-        <div class="d-flex justify-content-center mt-3 py-3 bg-custom  align-items-center">
+        <div class="d-flex justify-content-center mt-3 py-3 align-items-center">
           <div class="switch btn btn-outline-dark d-flex align-items-center justify-content-between px-2 py-1">
-            <div class="fliker bg-white rounded-circle d-block"></div>
-            <i class="fas fa-moon text-white ms-2"></i>
+            <img class="flicker" src="Assets/imgs/icons/sun.png" loading="lazy" width="20" height="20" alt="sun"/>
+            <img src="Assets/imgs/icons/moon.png" loading="lazy" width="20" height="20" alt="moon"/>
           </div>
         </div>
       </div>
@@ -116,7 +113,7 @@
               پورتال پزشکی این سایت مربوط به یک بیمارستان و یا مرکز پزشکی می‌شود که حاوی اطلاعات جامعی از پزشکان، ساعات کاری، مکان‌ها و رزرو نوبت اینترنتی می‌باشد.
             </p>
             <button type="button" class="border border-primary bg-transparent rounded   p-1">
-               <a href="#" class=" text-primary px-4">ویزیت آنلاین</a>
+               <a href="#" target="_blank" class=" text-primary p-2">ویزیت آنلاین</a>
             </button>
           </div>
         </div>
@@ -135,7 +132,7 @@
       <div class="row">
         <div class="col w-100 h-100">
           <form class="input-group shadow overflow-hidden h-100">
-            <span class="p-3 blue-bg text-white fw-bold">نام پزشک:</span>
+            <span class="p-3 bg-info text-white">نام پزشک:</span>
             <input 
               type="text" 
               class="form-control" 
@@ -143,10 +140,10 @@
               id="search-name" >
             <button 
               type="submit" 
-              class="blue-bg p-3 text-white d-flex align-items-center justify-content-between" 
+              class="bg-info p-1 text-white d-flex align-items-center justify-content-between" 
               id="search-btn">
-              <span class="me-2 px-3">جستجو</span>
-              <i class="fas fa-search "></i>
+              <span class=" px-2">جستجو</span>
+              <img  src="Assets/imgs/icons/search.png" loading="lazy" width="40" height="40" alt="searchEngine"/>
             </button>
           </form>
         </div>
@@ -157,8 +154,7 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 text-center my-4">
-          <h5 class="fw-bold text-primary position-relative d-inline-block px-3 py-2 border-bottom border-3 border-primary rounded">
-            <i class="bi bi-heart-pulse-fill text-danger me-2"></i>
+          <h5 class="fw-bold text-info position-relative d-inline-block px-3 py-2 border-bottom border-3 border-info rounded">
             تخصص ها
           </h5>
         </div> 
@@ -167,28 +163,28 @@
       <div class="row g-3">
         <div class="col-6 col-md-3">
           <div class="border rounded p-3 d-flex flex-column align-items-center shadow-sm h-100">
-            <img src="Assets/imgs/specialties/specialities-01.svg" alt="متخصص قلب" class="img-fluid mb-3 mx-auto d-block" style="max-width: 60px;">
+            <img  src="Assets/imgs/icons/cardiologist.png" class="img-fluid mb-3 mx-auto d-block" loading="lazy" width="50" height="50" alt="cardiologist"/>
             <p class="mb-0 fw-medium">متخصص قلب</p>
           </div>
         </div>
     
         <div class="col-6 col-md-3">
           <div class="border rounded p-3 d-flex flex-column align-items-center shadow-sm h-100">
-            <img src="Assets/imgs/specialties/specialities-02.svg" alt="عصب‌شناس" class="img-fluid mb-3 mx-auto d-block" style="max-width: 60px;">
+            <img  src="Assets/imgs/icons/neurology.png" class="img-fluid mb-3 mx-auto d-block" loading="lazy" width="50" height="50" alt="neurology"/>
             <p class="mb-0 fw-medium">عصب‌شناس</p>
           </div>
         </div>
     
         <div class="col-6 col-md-3">
           <div class="border rounded p-3 d-flex flex-column align-items-center shadow-sm h-100">
-            <img src="Assets/imgs/specialties/specialities-03.svg" alt="اورولوژی" class="img-fluid mb-3 mx-auto d-block" style="max-width: 60px;">
+            <img  src="Assets/imgs/icons/urology.png" class="img-fluid mb-3 mx-auto d-block" loading="lazy" width="50" height="50" alt="urology"/>
             <p class="mb-0 fw-medium">اورولوژی</p>
           </div>
         </div>
     
         <div class="col-6 col-md-3">
           <div class="border rounded p-3 d-flex flex-column align-items-center shadow-sm h-100">
-            <img src="Assets/imgs/specialties/specialities-05.svg" alt="دندانپزشک" class="img-fluid mb-3 mx-auto d-block" style="max-width: 60px;">
+            <img  src="Assets/imgs/icons/dentist.png" class="img-fluid mb-3 mx-auto d-block" loading="lazy" width="50" height="50" alt="dentist"/>
             <p class="mb-0 fw-medium">دندانپزشک</p>
           </div>
         </div>
@@ -199,8 +195,7 @@
     <div class="container mt-5" id="introduce">
       <div class="row">
         <div class="col-12 text-center my-4">
-          <h5 class="fw-bold text-primary position-relative d-inline-block px-3 py-2 border-bottom border-3 border-primary rounded">
-            <i class="bi bi-heart-pulse-fill text-danger me-2"></i>
+          <h5 class="fw-bold text-info position-relative d-inline-block px-3 py-2 border-bottom border-3 border-info rounded">
             بهترین پزشکان
           </h5>
         </div> 
@@ -236,42 +231,42 @@
             <div class="col-12 col-sm-6">
               <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
                 <span class="text-end fs-6 custom-color">تیم درمانی باکیفیت</span>
-                <i class="far fa-check-circle text-success fs-5"></i>
+               <img src="Assets/imgs/icons/check.png" loading="lazy" width="20" height="20" alt="check-mark">
               </div>
             </div>
     
             <div class="col-12 col-sm-6">
               <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
                 <span class="text-end fs-6 custom-color">بیمارستان چند تخصصی</span>
-                <i class="far fa-check-circle text-success fs-5"></i>
+                <img src="Assets/imgs/icons/check.png" loading="lazy" width="20" height="20" alt="check-mark">
               </div>
             </div>
     
             <div class="col-12 col-sm-6">
               <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
                 <span class="text-end fs-6 custom-color">خدمات دندانپزشکی</span>
-                <i class="far fa-check-circle text-success fs-5"></i>
+                <img src="Assets/imgs/icons/check.png" loading="lazy" width="20" height="20" alt="check-mark">
               </div>
             </div>
     
             <div class="col-12 col-sm-6">
               <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
                 <span class="text-end fs-6 custom-color">قرارداد تمامی بیمه‌ها</span>
-                <i class="far fa-check-circle text-success fs-5"></i>
+                <img src="Assets/imgs/icons/check.png" loading="lazy" width="20" height="20" alt="check-mark">
               </div>
             </div>
     
             <div class="col-12 col-sm-6">
               <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
                 <span class="text-end fs-6 custom-color">متخصصین حرفه‌ای</span>
-                <i class="far fa-check-circle text-success fs-5"></i>
+                <img src="Assets/imgs/icons/check.png" loading="lazy" width="20" height="20" alt="check-mark">
               </div>
             </div>
     
             <div class="col-12 col-sm-6">
               <div class="bg-light rounded-3 p-2 d-flex align-items-center justify-content-between shadow-sm">
                 <span class="text-end fs-6 custom-color">پشتیبانی ۲۴ ساعته</span>
-                <i class="far fa-check-circle text-success fs-5"></i>
+                <img src="Assets/imgs/icons/check.png" loading="lazy" width="20" height="20" alt="check-mark">
               </div>
             </div>
           </div>
@@ -283,8 +278,7 @@
     <div class="container mt-5">
         <div class="row">
           <div class="col-12 text-center my-4">
-            <h5 class="fw-bold text-primary position-relative d-inline-block px-3 py-2 border-bottom border-3 border-primary rounded">
-              <i class="bi bi-heart-pulse-fill text-danger me-2"></i>
+            <h5 class="fw-bold text-info position-relative d-inline-block px-3 py-2 border-bottom border-3 border-info rounded">
               نظرات
             </h5>
           </div> 
@@ -303,8 +297,7 @@
     <div class="container mt-5" >
       <div class="row">
         <div class="col-12 text-center my-4">
-          <h5 class="fw-bold text-primary position-relative d-inline-block px-3 py-2 border-bottom border-3 border-primary rounded">
-            <i class="bi bi-heart-pulse-fill text-danger me-2"></i>
+          <h5 class="fw-bold text-info position-relative d-inline-block px-3 py-2 border-bottom border-3 border-info rounded">
            مقالات
           </h5>
         </div> 
@@ -322,51 +315,50 @@
     <!-- Start Footer Section -->
     <footer class="footer-shadow mt-5 py-5 h-auto" aria-labelledby="footer-heading">
       <div class="container">
-        <div class="row justify-content-center align-items-center">
-           <div class="col-12 col-md-3 mt-4" role="complementary" aria-labelledby="contact-info">
+        <div class="row justify-content-center align-items-center"> 
+           <div class="col-12 col-lg-3 mt-4" role="complementary" aria-labelledby="contact-info">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
               <p class=" custom-color" id="contact-info">
                 سلام دوست عزیز، خوشحالیم که به ما پیوستی
               </p>
-              <form action="index.php" method="POST"  class="d-flex justify-content-center align-items-center gap-2 flex-wrap" aria-labelledby="email-form">
-                <input class="form-control py-2 w-auto" type="email" name="email" id="email-input" placeholder="ایمیل خود را وارد کنید" aria-label="وارد کردن ایمیل" />
-                <button type="submit" class="btn btn-primary " aria-label="ارسال ایمیل">ارسال</button>
+              <form action="index.php" method="POST"  class="d-flex justify-content-center align-items-center flex-nowrap" aria-labelledby="email-form">
+                <input class="form-control rounded-0 py-2 w-auto" type="email" name="email" id="email-input" placeholder="ایمیل خود را وارد کنید" aria-label="email-input" />
+                <button type="submit" class="btn btn-info text-white rounded-0 p-2 d-flex justify-content-center align-items-center flex-nowrap " aria-label="submit">ارسال
+                  <img src="Assets/imgs/icons/send.png" loading="lazy" width="24" height="24" alt="send">
+                </button>
               </form>
             </div>
           </div>
-    
-          <div class="col-12 col-md-3 mt-4" role="navigation" aria-labelledby="quick-links">
+          <div class="col-12 col-lg-3 mt-4" role="navigation" aria-labelledby="quick-links">
             <div class=" d-flex flex-column justify-content-center align-items-center">
               <div class=" text-center pt-3 custom-color" id="quick-links">لینک‌های سریع</div>
               <ul class="pt-3">
-                <li class="mt-2"><a class="custom-color" href="#">قرار ملاقات</a></li>
-                <li class="mt-2"><a class="custom-color" href="#">حریم خصوصی</a></li>
-                <li class="mt-2"><a class="custom-color" href="#">شرایط و ضوابط</a></li>
+                <li class="mt-3"><a class="custom-color" href="#">قرار ملاقات</a></li>
+                <li class="mt-3"><a class="custom-color" href="#">حریم خصوصی</a></li>
+                <li class="mt-3"><a class="custom-color" href="#">شرایط و ضوابط</a></li>
               </ul>
             </div>
           </div>
-    
-          <div class="col-12 col-md-3 mt-4" role="navigation" aria-labelledby="useful-links">
+          <div class="col-12 col-lg-3 mt-4" role="navigation" aria-labelledby="useful-links">
             <div class=" d-flex flex-column justify-content-center align-items-center">
               <div class=" text-center custom-color" id="useful-links">لینک‌های مفید</div>
               <div class="d-flex flex-column p-0 pt-3 custom-color">
                 <div class=" mt-3 d-flex align-items-center" aria-labelledby="location">
-                  <i class="far fa-location " aria-hidden="true"></i>
-                  <span>مشهد - خیابان پاستور</span>
+                  <img src="Assets/imgs/icons/location.png" loading="lazy" width="20" height="20" alt="location">
+                  <span class="mx-3">مشهد - خیابان پاستور</span>
                 </div>
                 <div class=" mt-3 custom-color d-flex align-items-center" aria-labelledby="phone">
-                  <i class="far fa-phone " aria-hidden="true"></i>
-                  <span>۰۹۳۳۹۶۱۰۸۴۱</span>
+                  <img src="Assets/imgs/icons/phone.png" loading="lazy" width="20" height="20" alt="phone">
+                  <span class="mx-3">۰۹۳۳۹۶۱۰۸۴۱</span>
                 </div>
                 <div class=" mt-3 custom-color d-flex align-items-center" aria-labelledby="email">
-                  <i class="fas fa-envelope" aria-hidden="true"></i>
-                  <span>info@gmail.com</span>
+                  <img src="Assets/imgs/icons/email.png" loading="lazy" width="20" height="20" alt="email">
+                  <span class="mx-3">info@gmail.com</span>
                 </div>
               </div>
             </div>
           </div>
-    
-          <div class="col-12 col-md-3 mt-4" role="complementary" aria-labelledby="company-info">
+          <div class="col-12 col-lg-3 mt-4" role="complementary" aria-labelledby="company-info">
             <div class="d-flex flex-column justify-content-between align-items-center">
               <div class=" mb-3">
                 <h4 class="custom-color logoText fs-3" id="company-info">OnlineDoc</h4>
@@ -378,15 +370,21 @@
               </div>
               <div class="mt-5">
                 <ul class=" d-flex justify-content-center align-items-center list-unstyled">
-                  <li class="px-3 "><a href="#" class="custom-color" aria-label="LinkedIn"><i class="fab fa-linkedin fs-4"></i></a></li>
-                  <li class="px-3 "><a href="https://github.com/samiraomidvar7129/Online-Doctor" class="custom-color" aria-label="GitHub"><i class="fab fa-github fs-4 "></i></a></li>
-                  <li class="px-3 "><a href="#" class="custom-color" aria-label="Facebook"><i class="fab fa-facebook fs-4"></i></a></li>
-                  <li class="px-3 "><a href="#" class="custom-color" aria-label="Instagram"><i class="fab fa-instagram fs-4"></i></a></li>
+                  <li class="px-3 "><a target="_blank" href="#"  class="custom-color" aria-label="LinkedIn">                 
+                  <img src="Assets/imgs/icons/linkedin.png" loading="lazy" width="40" height="40" alt="linkedin"></a></li>
+                  <li class="px-3 "><a target="_blank" href="https://github.com/samiraomidvar7129/Online-Doctor"  class="custom-color" aria-label="GitHub">
+                    <img src="Assets/imgs/icons/github.png" loading="lazy" width="40" height="40" alt="github"> </a></li>
+                  </a></li>
+                  <li class="px-3 "><a target="_blank" href="#"  class="custom-color" aria-label="Facebook">
+                    <img src="Assets/imgs/icons/telegram.png" loading="lazy" width="40" height="40" alt="telegram"></a></li>
+                  </a></li>
+                  <li class="px-3 "><a target="_blank" href="#"  class="custom-color" aria-label="Instagram">
+                    <img src="Assets/imgs/icons/instagram.png" loading="lazy" width="40" height="40" alt="instagram"></a></li>
+                  </a></li>
                 </ul>
               </div>
             </div>
           </div>
-    
         </div>
       </div>
     </footer>
@@ -398,9 +396,9 @@
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div class="subFooter-item d-flex align-items-center">
               <div class="subFooter-item_copyright">
-                <i class="fa fa-copyright custom-color"></i>
+                <img src="Assets/imgs/icons/copyright.png" loading="lazy" width="20" height="20" alt="copyright"></a></li>
               </div>
-              <div class="subFooter-item_txt custom-color">
+              <div class="subFooter-item_txt custom-color mx-3">
                 حقوق این پروژه برای توسعه‌دهنده محفوظ است
               </div>
             </div>

@@ -8,18 +8,17 @@ export const displayDoctors = (doctors) => {
             <div class="overflow-hidden rounded-circle mb-3" style="width: 120px; height: 120px;">
               <img src="${doctor.ImageUrl}" alt="doctor-img" class="w-100 h-100 object-fit-cover">
             </div>
-            <h5 class="text-dark font-weight-bold mb-2" style="color: #0d47a1;">${doctor.Name}</h5>
-            <p class="text-muted">${doctor.Speciallity}</p>
+            <h5 class="text-dark  fs-5 mb-2" >${doctor.Name}</h5>
+            <p class="text-muted fs-6">${doctor.Speciallity}</p>
             <div class="d-flex justify-content-between align-items-center w-100 mt-2">
               <span class="text-muted">ن-پ: ${doctor.NezamCode}</span>
               <span class="text-muted">${doctor.city}</span>
             </div>
             <div class="w-100 mt-4">
               <a href="details.html?group=${doctor.id}&doctorName=${doctor.Name}&speciallity=${doctor.Speciallity}" 
-                 class="btn btn-primary w-100 d-flex justify-content-between align-items-center py-2" 
-                 style="background-color: #0d47a1; color: white; text-decoration: none; border-radius: 4px;">
-                <span>نوبت بگیرید</span>
-                <i class="fa fa-arrow-left"></i>
+                 class="btn btn-info w-100 d-flex justify-content-between align-items-center py-2 " >
+                <span class="text-white">نوبت بگیرید</span>
+               <img src="Assets/imgs/icons/top-right.png" loading="lazy" width="20" height="20" alt="arrow-top">
               </a>
             </div>
           </div>

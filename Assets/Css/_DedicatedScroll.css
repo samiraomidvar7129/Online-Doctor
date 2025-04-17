@@ -1,8 +1,9 @@
 #dedicatedScroll {
-  height: 4px;
+  width: 0%;
+  height: 6px;
   background-color: #0d47a1;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 999999;
 }
